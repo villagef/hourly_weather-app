@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather app</title>
     <link rel="stylesheet" href="./styles/style.css">
-    <script src="./js/index.js"></script>
 </head>
 <body>
     <div class="mainWrapper">
@@ -63,5 +62,11 @@
             </section>
         </div>
     </div>
+
+    <script src="./js/index.js"></script>
+    <script>
+        const catalog = new WeatherApp();
+        catalog.initData();
+    </script>
 </body>
 </html>

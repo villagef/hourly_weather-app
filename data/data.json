@@ -1,0 +1,313 @@
+[{
+    "date": "Today",
+    "hour": "00:00",
+    "forecast": "cloudy",
+    "temp": 8,
+    "rain": 0,
+    "wind": "Wschodni",
+    "speed": [
+        "Słaby",
+        5
+    ],
+    "pressure": 1014
+},
+{
+    "date": "Today",
+    "hour": "01:00",
+    "forecast": "rainy",
+    "temp": 7,
+    "rain": 0,
+    "wind": "Pd.-Wsch.",
+    "speed": [
+        "Słaby",
+        4
+    ],
+    "pressure": 1014
+},
+{
+    "date": "Today",
+    "hour": "02:00",
+    "forecast": "rainy",
+    "temp": 7,
+    "rain": 0.2,
+    "wind": "Południowy",
+    "speed": [
+        "Słaby",
+        4
+    ],
+    "pressure": 1013
+},
+{
+    "date": "Today",
+    "hour": "03:00",
+    "forecast": "rainy",
+    "temp": 7,
+    "rain": 0.4,
+    "wind": "Pd.-Zach.",
+    "speed": [
+        "Słaby",
+        4
+    ],
+    "pressure": 1013
+},
+{
+    "date": "Today",
+    "hour": "04:00",
+    "forecast": "heavy-rainy",
+    "temp": 7,
+    "rain": 0.9,
+    "wind": "Zachodni",
+    "speed": [
+        "Słaby",
+        7
+    ],
+    "pressure": 1012
+},
+{
+    "date": "Today",
+    "hour": "05:00",
+    "forecast": "heavy-rainy",
+    "temp": 7,
+    "rain": 0.9,
+    "wind": "Zachodni",
+    "speed": [
+        "Słaby",
+        7
+    ],
+    "pressure": 1012
+},
+{
+    "date": "Today",
+    "hour": "06:00",
+    "forecast": "heavy-rainy",
+    "temp": 6,
+    "rain": 0.8,
+    "wind": "Zachodni",
+    "speed": [
+        "Słaby",
+        11
+    ],
+    "pressure": 1012
+},
+{
+    "date": "Today",
+    "hour": "07:00",
+    "forecast": "rainy",
+    "temp": 7,
+    "rain": 0.4,
+    "wind": "Zachodni",
+    "speed": [
+        "Słaby",
+        11
+    ],
+    "pressure": 1012
+},
+{
+    "date": "Today",
+    "hour": "08:00",
+    "forecast": "rainy",
+    "temp": 8,
+    "rain": 0.2,
+    "wind": "Pn.-Zach.",
+    "speed": [
+        "Słaby",
+        14
+    ],
+    "pressure": 1013
+},
+{
+    "date": "Today",
+    "hour": "09:00",
+    "forecast": "rainy",
+    "temp": 9,
+    "rain": 0.3,
+    "wind": "Pn.-Zach.",
+    "speed": [
+        "Słaby",
+        14
+    ],
+    "pressure": 1013
+},
+{
+    "date": "Today",
+    "hour": "10:00",
+    "forecast": "rainy",
+    "temp": 10,
+    "rain": 0.2,
+    "wind": "Pn.-Zach.",
+    "speed": [
+        "Umiar.",
+        18
+    ],
+    "pressure": 1014
+},
+{
+    "date": "Today",
+    "hour": "11:00",
+    "forecast": "rainy",
+    "temp": 10,
+    "rain": 0.2,
+    "wind": "Pn.-Zach.",
+    "speed": [
+        "Umiar.",
+        22
+    ],
+    "pressure": 1014
+},
+{
+    "date": "Today",
+    "hour": "12:00",
+    "forecast": "cloudy-sunny",
+    "temp": 11,
+    "rain": 0,
+    "wind": "Pn.-Zach.",
+    "speed": [
+        "Umiar.",
+        25
+    ],
+    "pressure": 1014
+},
+{
+    "date": "Today",
+    "hour": "13:00",
+    "forecast": "cloudy-sunny",
+    "temp": 12,
+    "rain": 0,
+    "wind": "Pn.-Zach.",
+    "speed": [
+        "Umiar.",
+        25
+    ],
+    "pressure": 1014
+},
+{
+    "date": "Today",
+    "hour": "14:00",
+    "forecast": "cloudy-sunny",
+    "temp": 13,
+    "rain": 0,
+    "wind": "Pn.-Zach.",
+    "speed": [
+        "Umiar.",
+        22
+    ],
+    "pressure": 1014
+},
+{
+    "date": "Today",
+    "hour": "15:00",
+    "forecast": "sunny",
+    "temp": 15,
+    "rain": 0,
+    "wind": "Pn.-Zach.",
+    "speed": [
+        "Umiar.",
+        25
+    ],
+    "pressure": 1015
+},
+{
+    "date": "Today",
+    "hour": "16:00",
+    "forecast": "sunny",
+    "temp": 17,
+    "rain": 0,
+    "wind": "Zachodni",
+    "speed": [
+        "Umiar.",
+        22
+    ],
+    "pressure": 1015
+},
+{
+    "date": "Today",
+    "hour": "17:00",
+    "forecast": "sunny",
+    "temp": 17,
+    "rain": 0,
+    "wind": "Zachodni",
+    "speed": [
+        "Umiar.",
+        20
+    ],
+    "pressure": 1015
+},
+{
+    "date": "Today",
+    "hour": "18:00",
+    "forecast": "cloudy-sunny",
+    "temp": 16,
+    "rain": 0,
+    "wind": "Zachodni",
+    "speed": [
+        "Umiar.",
+        18
+    ],
+    "pressure": 1015
+},
+{
+    "date": "Today",
+    "hour": "19:00",
+    "forecast": "cloudy-sunny",
+    "temp": 13,
+    "rain": 0,
+    "wind": "Zachodni",
+    "speed": [
+        "Słaby",
+        15
+    ],
+    "pressure": 1014
+},
+{
+    "date": "Today",
+    "hour": "20:00",
+    "forecast": "cloudy",
+    "temp": 11,
+    "rain": 0,
+    "wind": "Zachodni",
+    "speed": [
+        "Słaby",
+        15
+    ],
+    "pressure": 1014
+},
+{
+    "date": "Today",
+    "hour": "21:00",
+    "forecast": "cloudy",
+    "temp": 8,
+    "rain": 0,
+    "wind": "Pn.-Zach.",
+    "speed": [
+        "Słaby",
+        13
+    ],
+    "pressure": 1013
+},
+{
+    "date": "Today",
+    "hour": "22:00",
+    "forecast": "cloudy",
+    "temp": 6,
+    "rain": 0,
+    "wind": "Pn.-Zach.",
+    "speed": [
+        "Słaby",
+        5
+    ],
+    "pressure": 1013
+},
+{
+    "date": "Today",
+    "hour": "23:00",
+    "forecast": "cloudy",
+    "temp": 5,
+    "rain": 0,
+    "wind": "Pn.-Zach.",
+    "speed": [
+        "Słaby",
+        4
+    ],
+    "pressure": 1013
+}
+]
