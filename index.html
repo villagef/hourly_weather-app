@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <script src="./js/index.js"></script>
+</head>
+<body>
+    <div class="mainWrapper">
+        <div class="mainContainer">
+            <section class="leftColumnSection">
+                <div class="leftColumnWrapper">
+                    <div class="daySection flex label">
+                        <p>Dzień</p>
+                    </div>
+                    <div class="hourSection flex label">
+                        <p>Godzina</p>
+                    </div>
+                    <div class="forecastSection flex label">
+                        <p>Prognoza</p>
+                    </div>
+                    <div class="tempSection flex label">
+                        <p>Temperatura</p>
+                    </div>
+                    <div class="rainSection flex label">
+                        <p>Opady deszczu</p>
+                    </div>
+                    <div class="windSection flex label">
+                        <p>Kierunek wiatru</p>
+                    </div>
+                    <div class="speedSection flex label">
+                        <p>Prędkość</p>
+                    </div>
+                    <div class="pressureSection flex label">
+                        <p>Ciśnienie</p>
+                    </div>
+                </div>
+            </section>
+            <section class="rightColumnSection flex">
+                <div class="rightColumnWrapper flex">
+                    <div class="today flex">
+                        <p>Today</p>
+                    </div>
+                    <div class="card">
+                        <div class="hourSection flex label" id="hourSection">
+                        </div>
+                        <div class="forecastSection flex label" id="forecastSection">
+                        </div>
+                        <div class="tempSection flex label" id="tempSection">
+                        </div>
+                        <div class="rainSection flex label" id="rainSection">
+                        </div>
+                        <div class="windSection flex label" id="windSection">
+                        </div>
+                        <div class="speedSection flex label" id="speedSection">
+                        </div>
+                        <div class="pressureSection flex label" id="pressureSection">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</body>
+</html>
