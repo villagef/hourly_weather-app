@@ -1,4 +1,5 @@
-$LeftColFontColor: rgb(160, 160, 160);
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300&display=swap");
+$LeftColFontColor: rgb(153, 152, 152);
 $RightColFontColor: rgb(0, 0, 0);
 
 * {
@@ -7,9 +8,11 @@ $RightColFontColor: rgb(0, 0, 0);
   box-sizing: border-box;
 }
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
+body,
+html {
+  font-family: "Lato", Helvetica, sans-serif;
   font-weight: bolder;
+  scroll-behavior: smooth;
 }
 
 .flex {
@@ -22,10 +25,10 @@ body {
 
 .label {
   border-bottom: 1px solid #ddd;
-}
 
-.label:last-child {
-  border-bottom: 0;
+  &:last-child {
+    border-bottom: 0;
+  }
 }
 
 .mainWrapper {
@@ -48,7 +51,7 @@ body {
 
 .leftColumnSection {
   width: 10%;
-  max-width: 110px;
+  min-width: 110px;
   height: 100%;
   color: $LeftColFontColor;
 }
@@ -67,34 +70,89 @@ body {
   color: $RightColFontColor;
   flex-direction: row;
   position: relative;
-  overflow-x: scroll;
-  overflow-y: hidden;
+  overflow: hidden;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: -50px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.2);
+    transform: translateY(-50%);
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -50px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.2);
+    transform: translateY(-50%);
+  }
 }
 
-.rightColumnSection::-webkit-scrollbar {
-  // display: none;
+.leftArrow {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 40px;
+  height: 40px;
+  z-index: 1;
+  color: rgb(255, 255, 255);
+  transform: translateY(-50%);
+}
+
+.rightArrow {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  width: 40px;
+  height: 40px;
+  z-index: 1;
+  color: rgb(255, 255, 255);
+  transform: translateY(-50%);
 }
 
 .rightColumnWrapper {
   position: absolute;
   top: 0;
   left: 0;
-  width: auto;
+  width: 100%;
   height: 100%;
   flex-direction: row;
-
   justify-content: flex-start;
   flex-wrap: nowrap;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
 
   .windSection,
   .speedSection {
-    background-color: #ddd;
+    background-color: rgb(236, 236, 236);
   }
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.fa-chevron-right,
+.fa-chevron-left {
+  width: 40px;
+  height: 40px;
 }
 
 .card {
   position: relative;
-  width: 120px;
+  min-width: 120px;
   height: 100%;
   flex-direction: row;
 }

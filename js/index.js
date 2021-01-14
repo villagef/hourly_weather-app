@@ -1,4 +1,5 @@
 const cardWrapper = document.querySelector(".rightColumnWrapper");
+const cardSection = document.querySelector(".rightColumnSection");
 class WeatherApp {
     constructor() {
         this.API = './data/data.json';
@@ -19,7 +20,7 @@ class WeatherApp {
                             <p>${d.hour}</p>
                         </div>
                         <div class="forecastSection flex row" id="forecastSection">
-                            <i class="fas ${d.forecast}"></i>
+                            <i class="fa-3x fas ${d.forecast}" style="color: #2d92e5;"></i>
                         </div>
                         <div class="tempSection flex row" id="tempSection">
                             <p>${d.temp}</p>
@@ -43,7 +44,32 @@ class WeatherApp {
             })
             .catch(err => console.log(err));
     }
+    
 }
+
+//handle left arrow
+$(".leftArrow").click(function() {
+    var box = $(".rightColumnWrapper"),
+      x;
+      
+      x = ((box.width() / 2)) - box.scrollLeft();
+      box.animate({
+        scrollLeft: -x,
+      })
+  })
+
+  //handle right arrow
+$(".rightArrow").click(function() {
+    var box = $(".rightColumnWrapper"),
+      x;
+
+      x = ((box.width() / 2)) + box.scrollLeft();
+      box.animate({
+        scrollLeft: +x,
+      })
+  })
+  
+  
 
 
 
