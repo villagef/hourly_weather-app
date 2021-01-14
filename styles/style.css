@@ -10,7 +10,6 @@ body,
 html {
   font-family: "Lato", Helvetica, sans-serif;
   font-weight: bolder;
-  scroll-behavior: smooth;
 }
 
 .flex {
