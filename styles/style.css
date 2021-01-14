@@ -18,8 +18,9 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -73,40 +74,68 @@ body {
 
 .leftColumnSection {
   width: 10%;
+  max-width: 110px;
   height: 100%;
-  color: #bdbcbc;
-}
-
-.rightColumnSection {
-  width: 90%;
-  height: 100%;
-  border: 2px solid #ddd;
-  color: black;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  color: #a0a0a0;
 }
 
 .leftColumnWrapper {
   height: 100%;
   width: 100%;
+  text-align: center;
+}
+
+.rightColumnSection {
+  width: 90%;
+  height: 100%;
+  border-bottom: 2px solid #ddd;
+  border-left: 2px solid #ddd;
+  color: black;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  position: relative;
+  overflow-x: scroll;
+  overflow-y: hidden;
 }
 
 .rightColumnWrapper {
-  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: auto;
   height: 100%;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  overflow: hidden;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.rightColumnWrapper .windSection,
+.rightColumnWrapper .speedSection {
+  background-color: #ddd;
 }
 
 .card {
-  width: 100px;
+  position: relative;
+  width: 120px;
   height: 100%;
-  border: 2px solid #ddd;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.row {
+  border-width: 0 1px 0 0;
+  border-style: solid;
+  border-color: #ddd;
 }
 
 .daySection {
