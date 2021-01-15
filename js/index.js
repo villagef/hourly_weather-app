@@ -32,6 +32,7 @@ async function fetchData() {
                             <p>${d.rain}mm</p>
                         </div>
                         <div class="windSection flex row" id="windSection">
+                            <i class="fas fa-long-arrow-alt-up fa-2x" style="transform: rotate(${d.windDeg}deg)"></i>
                             <p>${d.wind}</p>
                         </div>
                         <div class="speedSection flex row id="speedSection">

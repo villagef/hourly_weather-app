@@ -7,6 +7,7 @@
         "temp": 8,
         "rain": 0,
         "wind": "Wschodni",
+        "windDeg": 90,
         "speed": [
             "Słaby",
             5
@@ -21,6 +22,7 @@
         "temp": 7,
         "rain": 0,
         "wind": "Pd.-Wsch.",
+        "windDeg": 135,
         "speed": [
             "Słaby",
             4
@@ -35,6 +37,7 @@
         "temp": 7,
         "rain": 0.2,
         "wind": "Południowy",
+        "windDeg": 180,
         "speed": [
             "Słaby",
             4
@@ -49,6 +52,7 @@
         "temp": 7,
         "rain": 0.4,
         "wind": "Pd.-Zach.",
+        "windDeg": 225,
         "speed": [
             "Słaby",
             4
@@ -63,6 +67,7 @@
         "temp": 7,
         "rain": 0.9,
         "wind": "Zachodni",
+        "windDeg": 270,
         "speed": [
             "Słaby",
             7
@@ -77,6 +82,7 @@
         "temp": 7,
         "rain": 0.9,
         "wind": "Zachodni",
+        "windDeg": 270,
         "speed": [
             "Słaby",
             7
@@ -91,6 +97,7 @@
         "temp": 6,
         "rain": 0.8,
         "wind": "Zachodni",
+        "windDeg": 270,
         "speed": [
             "Słaby",
             11
@@ -105,6 +112,7 @@
         "temp": 7,
         "rain": 0.4,
         "wind": "Zachodni",
+        "windDeg": 270,
         "speed": [
             "Słaby",
             11
@@ -119,6 +127,7 @@
         "temp": 8,
         "rain": 0.2,
         "wind": "Pn.-Zach.",
+        "windDeg": 315,
         "speed": [
             "Słaby",
             14
@@ -133,6 +142,7 @@
         "temp": 9,
         "rain": 0.3,
         "wind": "Pn.-Zach.",
+        "windDeg": 315,
         "speed": [
             "Słaby",
             14
@@ -147,6 +157,7 @@
         "temp": 10,
         "rain": 0.2,
         "wind": "Pn.-Zach.",
+        "windDeg": 315,
         "speed": [
             "Umiar.",
             18
@@ -161,6 +172,7 @@
         "temp": 10,
         "rain": 0.2,
         "wind": "Pn.-Zach.",
+        "windDeg": 315,
         "speed": [
             "Umiar.",
             22
@@ -175,6 +187,7 @@
         "temp": 11,
         "rain": 0,
         "wind": "Pn.-Zach.",
+        "windDeg": 315,
         "speed": [
             "Umiar.",
             25
@@ -189,6 +202,7 @@
         "temp": 12,
         "rain": 0,
         "wind": "Pn.-Zach.",
+        "windDeg": 315,
         "speed": [
             "Umiar.",
             25
@@ -203,6 +217,7 @@
         "temp": 13,
         "rain": 0,
         "wind": "Pn.-Zach.",
+        "windDeg": 315,
         "speed": [
             "Umiar.",
             22
@@ -217,6 +232,7 @@
         "temp": 15,
         "rain": 0,
         "wind": "Pn.-Zach.",
+        "windDeg": 315,
         "speed": [
             "Umiar.",
             25
@@ -231,6 +247,7 @@
         "temp": 17,
         "rain": 0,
         "wind": "Zachodni",
+        "windDeg": 270,
         "speed": [
             "Umiar.",
             22
@@ -245,6 +262,7 @@
         "temp": 17,
         "rain": 0,
         "wind": "Zachodni",
+        "windDeg": 270,
         "speed": [
             "Umiar.",
             20
@@ -259,6 +277,7 @@
         "temp": 16,
         "rain": 0,
         "wind": "Zachodni",
+        "windDeg": 270,
         "speed": [
             "Umiar.",
             18
@@ -273,6 +292,7 @@
         "temp": 13,
         "rain": 0,
         "wind": "Zachodni",
+        "windDeg": 270,
         "speed": [
             "Słaby",
             15
@@ -287,6 +307,7 @@
         "temp": 11,
         "rain": 0,
         "wind": "Zachodni",
+        "windDeg": 270,
         "speed": [
             "Słaby",
             15
@@ -301,6 +322,7 @@
         "temp": 8,
         "rain": 0,
         "wind": "Pn.-Zach.",
+        "windDeg": 315,
         "speed": [
             "Słaby",
             13
@@ -315,6 +337,7 @@
         "temp": 6,
         "rain": 0,
         "wind": "Pn.-Zach.",
+        "windDeg": 315,
         "speed": [
             "Słaby",
             5
@@ -329,6 +352,7 @@
         "temp": 5,
         "rain": 0,
         "wind": "Pn.-Zach.",
+        "windDeg": 315,
         "speed": [
             "Słaby",
             4
