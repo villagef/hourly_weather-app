@@ -1,18 +1,21 @@
+const API = "./data/data.json";
+const scrollContainer = document.querySelector(".rightColumnWrapper");
+const leftShadow = document.querySelector(".shadowLeft");
+const rightShadow = document.querySelector(".shadowRight");
 const cardWrapper = document.querySelector(".rightColumnWrapper");
-const cardSection = document.querySelector(".rightColumnSection");
-class WeatherApp {
-    constructor() {
-        this.API = './data/data.json';
-    }
+let leftScroll = false;
 
-    async fetchData() {
-        await fetch(this.API)
-            .then((res) => {
-                return res.json();
-            })
-            .then((data) => {
-                data.map(d => {
-                    cardWrapper.innerHTML +=  `
+rightShadow.classList.add("offRight");
+
+//this async function handle data from API and displays them 
+async function fetchData() {
+  await fetch(API)
+    .then((res) => {
+      return res.json();
+    })
+    .then((data) => {
+      data.map((d) => {
+        cardWrapper.innerHTML += `
                     <div class="card flex" id="${d.id}">
                         <div class="daySection flex">
                         </div>
@@ -23,80 +26,54 @@ class WeatherApp {
                             <i class="fa-3x fas ${d.forecast}" style="color: #2d92e5;"></i>
                         </div>
                         <div class="tempSection flex row" id="tempSection">
-                            <p>${d.temp}</p>
+                            <p>${d.temp}°</p>
                         </div>
                         <div class="rainSection flex row" id="rainSection">
-                            <p>${d.rain}</p>
+                            <p>${d.rain}mm</p>
                         </div>
                         <div class="windSection flex row" id="windSection">
                             <p>${d.wind}</p>
                         </div>
                         <div class="speedSection flex row id="speedSection">
                             <p>${d.speed[0]}</p>
-                            <p>${d.speed[1]}</p>
+                            <p>${d.speed[1]} km/h</p>
                         </div>
                         <div class="pressureSection flex row" id="pressureSection">
                             <p>${d.pressure} hPa</p>
                         </div>
                     </div>
-                    `
-                })
-            })
-            .catch(err => console.log(err));
-    }
-    
+                    `;
+      });
+    })
+    .catch((err) => console.log(err));
 }
 
-//handle left arrow
-$(".leftArrow").click(function() {
-    var box = $(".rightColumnWrapper"),
-      x;
-      
-      x = ((box.width() / 2)) - box.scrollLeft();
-      box.animate({
-        scrollLeft: -x,
-      })
-  })
+fetchData();
 
-  //handle right arrow
-$(".rightArrow").click(function() {
-    var box = $(".rightColumnWrapper"),
-      x;
+//this function handle left and right box shadow onScroll
+function setShadows(event) {
+  if (!leftScroll) {
+    window.requestAnimationFrame(function () {
+      if (
+        event.target.scrollLeft == 0 ||
+        event.target.scrollLeft <
+          event.target.scrollWidth - event.target.clientWidth
+      ) {
+        rightShadow.classList.add("offRight");
+      } else {
+        rightShadow.classList.remove("offRight");
+      }
 
-      x = ((box.width() / 2)) + box.scrollLeft();
-      box.animate({
-        scrollLeft: +x,
-      })
-  })
-  
-//handle scroll on drag and keys
-const slider = document.querySelector('.rightColumnWrapper');
-let isDown = false;
-let startX;
-let scrollLeft;
+      if (event.target.scrollLeft > 0) {
+        leftShadow.classList.add("offLeft");
+      } else {
+        leftShadow.classList.remove("offLeft");
+      }
 
-slider.addEventListener('mousedown', (e) => {
-  isDown = true;
-  slider.classList.add('active');
-  startX = e.pageX - slider.offsetLeft;
-  scrollLeft = slider.scrollLeft;
-});
-slider.addEventListener('mouseleave', () => {
-  isDown = false;
-  slider.classList.remove('active');
-});
-slider.addEventListener('mouseup', () => {
-  isDown = false;
-  slider.classList.remove('active');
-});
-slider.addEventListener('mousemove', (e) => {
-  if(!isDown) return;
-  e.preventDefault();
-  const x = e.pageX - slider.offsetLeft;
-  const walk = (x - startX);
-  slider.scrollLeft = scrollLeft - walk;
-});
-  
+      leftScroll = false;
+    });
+    leftScroll = true;
+  }
+}
 
-
-
+scrollContainer.addEventListener("scroll", setShadows);

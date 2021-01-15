@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300&display=swap");
 $LeftColFontColor: rgb(153, 152, 152);
 $RightColFontColor: rgb(0, 0, 0);
+$FontSize: 0.9rem;
 
 * {
   margin: 0;
@@ -70,6 +71,7 @@ html {
   flex-direction: row;
   position: relative;
   overflow: hidden;
+  font-size: $FontSize;
 
   &::before {
     content: "";
@@ -81,6 +83,7 @@ html {
     border-radius: 50%;
     background-color: rgba(0, 0, 0, 0.2);
     transform: translateY(-50%);
+    z-index: 1;
   }
 
   &::after {
@@ -137,11 +140,45 @@ html {
   .windSection,
   .speedSection {
     background-color: rgb(236, 236, 236);
+    border-color: white;
+    z-index: 0;
+  }
+
+  .hourSection {
+    font-size: 1.4rem;
+  }
+
+  .tempSection {
+    font-size: 1.6rem;
   }
 
   &::-webkit-scrollbar {
     display: none;
   }
+}
+
+.shadowLeft {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10px;
+  height: 100%;
+}
+
+.shadowRight {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 10px;
+  height: 100%;
+}
+
+.offLeft {
+  box-shadow: inset 4px 0px 8px rgb(212, 212, 212);
+}
+
+.offRight {
+  box-shadow: inset -4px 0px 8px rgb(212, 212, 212);
 }
 
 .fa-chevron-right,

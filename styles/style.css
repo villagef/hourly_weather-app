@@ -99,6 +99,7 @@ html {
           flex-direction: row;
   position: relative;
   overflow: hidden;
+  font-size: 0.9rem;
 }
 
 .rightColumnSection::before {
@@ -112,6 +113,7 @@ html {
   background-color: rgba(0, 0, 0, 0.2);
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
+  z-index: 1;
 }
 
 .rightColumnSection::after {
@@ -176,10 +178,46 @@ html {
 .rightColumnWrapper .windSection,
 .rightColumnWrapper .speedSection {
   background-color: #ececec;
+  border-color: white;
+  z-index: 0;
+}
+
+.rightColumnWrapper .hourSection {
+  font-size: 1.4rem;
+}
+
+.rightColumnWrapper .tempSection {
+  font-size: 1.6rem;
 }
 
 .rightColumnWrapper::-webkit-scrollbar {
   display: none;
+}
+
+.shadowLeft {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10px;
+  height: 100%;
+}
+
+.shadowRight {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 10px;
+  height: 100%;
+}
+
+.offLeft {
+  -webkit-box-shadow: inset 4px 0px 8px #d4d4d4;
+          box-shadow: inset 4px 0px 8px #d4d4d4;
+}
+
+.offRight {
+  -webkit-box-shadow: inset -4px 0px 8px #d4d4d4;
+          box-shadow: inset -4px 0px 8px #d4d4d4;
 }
 
 .fa-chevron-right,
