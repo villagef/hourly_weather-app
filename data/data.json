@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "date": "Today",
+        "date": "Fri Jan 15 2021 GMT+0100 (czas środkowoeuropejski standardowy)",
         "hour": "00:00",
         "forecast": "fa-cloud",
         "temp": 8,
@@ -16,7 +16,7 @@
     },
     {
         "id": 2,
-        "date": "Today",
+        "date": "Fri Jan 15 2021 GMT+0100 (czas środkowoeuropejski standardowy)",
         "hour": "01:00",
         "forecast": "fa-cloud-rain",
         "temp": 7,
@@ -31,7 +31,7 @@
     },
     {
         "id": 3,
-        "date": "Today",
+        "date": "Fri Jan 15 2021 GMT+0100 (czas środkowoeuropejski standardowy)",
         "hour": "02:00",
         "forecast": "fa-cloud-rain",
         "temp": 7,
@@ -46,7 +46,7 @@
     },
     {
         "id": 4,
-        "date": "Today",
+        "date": "Fri Jan 15 2021 GMT+0100 (czas środkowoeuropejski standardowy)",
         "hour": "03:00",
         "forecast": "fa-cloud-rain",
         "temp": 7,
@@ -61,7 +61,7 @@
     },
     {
         "id": 5,
-        "date": "Today",
+        "date": "Fri Jan 15 2021 GMT+0100 (czas środkowoeuropejski standardowy)",
         "hour": "04:00",
         "forecast": "fa-cloud-showers-heavy",
         "temp": 7,
@@ -76,7 +76,7 @@
     },
     {
         "id": 6,
-        "date": "Today",
+        "date": "Fri Jan 15 2021 GMT+0100 (czas środkowoeuropejski standardowy)",
         "hour": "05:00",
         "forecast": "fa-cloud-showers-heavy",
         "temp": 7,
@@ -91,7 +91,7 @@
     },
     {
         "id": 7,
-        "date": "Today",
+        "date": "Fri Jan 15 2021 GMT+0100 (czas środkowoeuropejski standardowy)",
         "hour": "06:00",
         "forecast": "fa-cloud-showers-heavy",
         "temp": 6,
@@ -106,7 +106,7 @@
     },
     {
         "id": 8,
-        "date": "Today",
+        "date": "Fri Jan 15 2021 GMT+0100 (czas środkowoeuropejski standardowy)",
         "hour": "07:00",
         "forecast": "fa-cloud-rain",
         "temp": 7,
@@ -121,7 +121,7 @@
     },
     {
         "id": 9,
-        "date": "Today",
+        "date": "Fri Jan 15 2021 GMT+0100 (czas środkowoeuropejski standardowy)",
         "hour": "08:00",
         "forecast": "fa-cloud-rain",
         "temp": 8,
@@ -136,7 +136,7 @@
     },
     {
         "id": 10,
-        "date": "Today",
+        "date": "Fri Jan 15 2021 GMT+0100 (czas środkowoeuropejski standardowy)",
         "hour": "09:00",
         "forecast": "fa-cloud-rain",
         "temp": 9,
@@ -151,7 +151,7 @@
     },
     {
         "id": 11,
-        "date": "Today",
+        "date": "Fri Jan 15 2021 GMT+0100 (czas środkowoeuropejski standardowy)",
         "hour": "10:00",
         "forecast": "fa-cloud-rain",
         "temp": 10,
@@ -166,7 +166,7 @@
     },
     {
         "id": 12,
-        "date": "Today",
+        "date": "Fri Jan 15 2021 GMT+0100 (czas środkowoeuropejski standardowy)",
         "hour": "11:00",
         "forecast": "fa-cloud-rain",
         "temp": 10,
@@ -181,7 +181,7 @@
     },
     {
         "id": 13,
-        "date": "Today",
+        "date": "Fri Jan 15 2021 GMT+0100 (czas środkowoeuropejski standardowy)",
         "hour": "12:00",
         "forecast": "fa-cloud-sun",
         "temp": 11,
@@ -196,7 +196,7 @@
     },
     {
         "id": 14,
-        "date": "Today",
+        "date": "Fri Jan 15 2021 GMT+0100 (czas środkowoeuropejski standardowy)",
         "hour": "13:00",
         "forecast": "fa-cloud-sun",
         "temp": 12,
@@ -211,7 +211,7 @@
     },
     {
         "id": 15,
-        "date": "Today",
+        "date": "Fri Jan 15 2021 GMT+0100 (czas środkowoeuropejski standardowy)",
         "hour": "14:00",
         "forecast": "fa-cloud-sun",
         "temp": 13,
@@ -226,7 +226,7 @@
     },
     {
         "id": 16,
-        "date": "Today",
+        "date": "Fri Jan 15 2021 GMT+0100 (czas środkowoeuropejski standardowy)",
         "hour": "15:00",
         "forecast": "fa-sun",
         "temp": 15,
@@ -241,7 +241,7 @@
     },
     {
         "id": 17,
-        "date": "Today",
+        "date": "Fri Jan 15 2021 GMT+0100 (czas środkowoeuropejski standardowy)",
         "hour": "16:00",
         "forecast": "fa-sun",
         "temp": 17,
@@ -256,7 +256,7 @@
     },
     {
         "id": 18,
-        "date": "Today",
+        "date": "Fri Jan 15 2021 GMT+0100 (czas środkowoeuropejski standardowy)",
         "hour": "17:00",
         "forecast": "fa-sun",
         "temp": 17,
@@ -271,7 +271,7 @@
     },
     {
         "id": 19,
-        "date": "Today",
+        "date": "Fri Jan 15 2021 GMT+0100 (czas środkowoeuropejski standardowy)",
         "hour": "18:00",
         "forecast": "fa-cloud-sun",
         "temp": 16,
@@ -286,7 +286,7 @@
     },
     {
         "id": 20,
-        "date": "Today",
+        "date": "Fri Jan 15 2021 GMT+0100 (czas środkowoeuropejski standardowy)",
         "hour": "19:00",
         "forecast": "fa-cloud-sun",
         "temp": 13,
@@ -301,7 +301,7 @@
     },
     {
         "id": 21,
-        "date": "Today",
+        "date": "Fri Jan 15 2021 GMT+0100 (czas środkowoeuropejski standardowy)",
         "hour": "20:00",
         "forecast": "fa-cloud-moon",
         "temp": 11,
@@ -316,7 +316,7 @@
     },
     {
         "id": 22,
-        "date": "Today",
+        "date": "Fri Jan 15 2021 GMT+0100 (czas środkowoeuropejski standardowy)",
         "hour": "21:00",
         "forecast": "fa-cloud-moon",
         "temp": 8,
@@ -331,7 +331,7 @@
     },
     {
         "id": 23,
-        "date": "Today",
+        "date": "Fri Jan 15 2021 GMT+0100 (czas środkowoeuropejski standardowy)",
         "hour": "22:00",
         "forecast": "fa-cloud-moon",
         "temp": 6,
@@ -346,7 +346,7 @@
     },
     {
         "id": 24,
-        "date": "Today",
+        "date": "Fri Jan 15 2021 GMT+0100 (czas środkowoeuropejski standardowy)",
         "hour": "23:00",
         "forecast": "fa-cloud-moon",
         "temp": 5,
@@ -358,5 +358,245 @@
             4
         ],
         "pressure": 1013
+    },
+    {
+        "id": 25,
+        "date": "Fri Jan 16 2021 GMT+0100 (czas środkowoeuropejski standardowy)",
+        "hour": "00:00",
+        "forecast": "fa-cloud",
+        "temp": 8,
+        "rain": 0,
+        "wind": "Wschodni",
+        "windDeg": 90,
+        "speed": [
+            "Słaby",
+            5
+        ],
+        "pressure": 1014
+    },
+    {
+        "id": 26,
+        "date": "Fri Jan 16 2021 GMT+0100 (czas środkowoeuropejski standardowy)",
+        "hour": "01:00",
+        "forecast": "fa-cloud-rain",
+        "temp": 7,
+        "rain": 0,
+        "wind": "Pd.-Wsch.",
+        "windDeg": 135,
+        "speed": [
+            "Słaby",
+            4
+        ],
+        "pressure": 1014
+    },
+    {
+        "id": 27,
+        "date": "Fri Jan 16 2021 GMT+0100 (czas środkowoeuropejski standardowy)",
+        "hour": "02:00",
+        "forecast": "fa-cloud-rain",
+        "temp": 7,
+        "rain": 0.2,
+        "wind": "Południowy",
+        "windDeg": 180,
+        "speed": [
+            "Słaby",
+            4
+        ],
+        "pressure": 1013
+    },
+    {
+        "id": 28,
+        "date": "Fri Jan 16 2021 GMT+0100 (czas środkowoeuropejski standardowy)",
+        "hour": "03:00",
+        "forecast": "fa-cloud-rain",
+        "temp": 7,
+        "rain": 0.4,
+        "wind": "Pd.-Zach.",
+        "windDeg": 225,
+        "speed": [
+            "Słaby",
+            4
+        ],
+        "pressure": 1013
+    },
+    {
+        "id": 29,
+        "date": "Fri Jan 16 2021 GMT+0100 (czas środkowoeuropejski standardowy)",
+        "hour": "04:00",
+        "forecast": "fa-cloud-showers-heavy",
+        "temp": 7,
+        "rain": 0.9,
+        "wind": "Zachodni",
+        "windDeg": 270,
+        "speed": [
+            "Słaby",
+            7
+        ],
+        "pressure": 1012
+    },
+    {
+        "id": 30,
+        "date": "Fri Jan 16 2021 GMT+0100 (czas środkowoeuropejski standardowy)",
+        "hour": "05:00",
+        "forecast": "fa-cloud-showers-heavy",
+        "temp": 7,
+        "rain": 0.9,
+        "wind": "Zachodni",
+        "windDeg": 270,
+        "speed": [
+            "Słaby",
+            7
+        ],
+        "pressure": 1012
+    },
+    {
+        "id": 31,
+        "date": "Fri Jan 16 2021 GMT+0100 (czas środkowoeuropejski standardowy)",
+        "hour": "06:00",
+        "forecast": "fa-cloud-showers-heavy",
+        "temp": 6,
+        "rain": 0.8,
+        "wind": "Zachodni",
+        "windDeg": 270,
+        "speed": [
+            "Słaby",
+            11
+        ],
+        "pressure": 1012
+    },
+    {
+        "id": 32,
+        "date": "Fri Jan 16 2021 GMT+0100 (czas środkowoeuropejski standardowy)",
+        "hour": "07:00",
+        "forecast": "fa-cloud-rain",
+        "temp": 7,
+        "rain": 0.4,
+        "wind": "Zachodni",
+        "windDeg": 270,
+        "speed": [
+            "Słaby",
+            11
+        ],
+        "pressure": 1012
+    },
+    {
+        "id": 33,
+        "date": "Fri Jan 16 2021 GMT+0100 (czas środkowoeuropejski standardowy)",
+        "hour": "08:00",
+        "forecast": "fa-cloud-rain",
+        "temp": 8,
+        "rain": 0.2,
+        "wind": "Pn.-Zach.",
+        "windDeg": 315,
+        "speed": [
+            "Słaby",
+            14
+        ],
+        "pressure": 1013
+    },
+    {
+        "id": 34,
+        "date": "Fri Jan 16 2021 GMT+0100 (czas środkowoeuropejski standardowy)",
+        "hour": "09:00",
+        "forecast": "fa-cloud-rain",
+        "temp": 9,
+        "rain": 0.3,
+        "wind": "Pn.-Zach.",
+        "windDeg": 315,
+        "speed": [
+            "Słaby",
+            14
+        ],
+        "pressure": 1013
+    },
+    {
+        "id": 35,
+        "date": "Fri Jan 16 2021 GMT+0100 (czas środkowoeuropejski standardowy)",
+        "hour": "10:00",
+        "forecast": "fa-cloud-rain",
+        "temp": 10,
+        "rain": 0.2,
+        "wind": "Pn.-Zach.",
+        "windDeg": 315,
+        "speed": [
+            "Umiar.",
+            18
+        ],
+        "pressure": 1014
+    },
+    {
+        "id": 36,
+        "date": "Fri Jan 16 2021 GMT+0100 (czas środkowoeuropejski standardowy)",
+        "hour": "11:00",
+        "forecast": "fa-cloud-rain",
+        "temp": 10,
+        "rain": 0.2,
+        "wind": "Pn.-Zach.",
+        "windDeg": 315,
+        "speed": [
+            "Umiar.",
+            22
+        ],
+        "pressure": 1014
+    },
+    {
+        "id": 37,
+        "date": "Fri Jan 16 2021 GMT+0100 (czas środkowoeuropejski standardowy)",
+        "hour": "12:00",
+        "forecast": "fa-cloud-sun",
+        "temp": 11,
+        "rain": 0,
+        "wind": "Pn.-Zach.",
+        "windDeg": 315,
+        "speed": [
+            "Umiar.",
+            25
+        ],
+        "pressure": 1014
+    },
+    {
+        "id": 38,
+        "date": "Fri Jan 16 2021 GMT+0100 (czas środkowoeuropejski standardowy)",
+        "hour": "13:00",
+        "forecast": "fa-cloud-sun",
+        "temp": 12,
+        "rain": 0,
+        "wind": "Pn.-Zach.",
+        "windDeg": 315,
+        "speed": [
+            "Umiar.",
+            25
+        ],
+        "pressure": 1014
+    },
+    {
+        "id": 39,
+        "date": "Fri Jan 16 2021 GMT+0100 (czas środkowoeuropejski standardowy)",
+        "hour": "14:00",
+        "forecast": "fa-cloud-sun",
+        "temp": 13,
+        "rain": 0,
+        "wind": "Pn.-Zach.",
+        "windDeg": 315,
+        "speed": [
+            "Umiar.",
+            22
+        ],
+        "pressure": 1014
+    },
+    {
+        "id": 40,
+        "date": "Fri Jan 16 2021 GMT+0100 (czas środkowoeuropejski standardowy)",
+        "hour": "15:00",
+        "forecast": "fa-sun",
+        "temp": 15,
+        "rain": 0,
+        "wind": "Pn.-Zach.",
+        "windDeg": 315,
+        "speed": [
+            "Umiar.",
+            25
+        ],
+        "pressure": 1015
     }
 ]

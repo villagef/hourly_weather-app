@@ -142,6 +142,10 @@ html {
           transform: translateY(-50%);
 }
 
+.leftArrow:hover {
+  color: #2d92e5;
+}
+
 .rightArrow {
   cursor: pointer;
   position: absolute;
@@ -153,6 +157,10 @@ html {
   color: white;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
+}
+
+.rightArrow:hover {
+  color: #2d92e5;
 }
 
 .rightColumnWrapper {

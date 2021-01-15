@@ -18,6 +18,7 @@ async function fetchData() {
         cardWrapper.innerHTML += `
                     <div class="card flex" id="${d.id}">
                         <div class="daySection flex">
+                          <p>${handleDate(d.hour, d.date)}</p>
                         </div>
                         <div class="hourSection flex row" id="hourSection">
                             <p>${d.hour}</p>
@@ -78,3 +79,34 @@ function setShadows(event) {
 }
 
 scrollContainer.addEventListener("scroll", setShadows);
+
+
+//day text label handle
+function handleDate(h,d) {
+  const today = new Date("Fri Jan 15 2021 GMT+0100 (czas środkowoeuropejski standardowy)");
+  const tomorrow = new Date("Sat Jan 16 2021 GMT+0100 (czas środkowoeuropejski standardowy)");
+  const hour = "00:00";
+  
+  if (h == hour && formatDate(d) == formatDate(today)) {
+    return 'Today';
+  } 
+  else if (h == hour && formatDate(d) == formatDate(tomorrow)) {
+    return 'Tomorrow'
+  }
+  else {
+    return '';
+  }
+}
+
+//date format
+function formatDate(date) {
+  let d = new Date(date),
+      month = '' + (d.getMonth() + 1),
+      day = '' + d.getDate(),
+      year = d.getFullYear();
+
+  if (month.length < 2) month = '0' + month;
+  if (day.length < 2) day = '0' + day;
+
+  return [year, month, day].join('-');
+}
