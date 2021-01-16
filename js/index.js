@@ -44,7 +44,7 @@ rightShadow.classList.add("offRight");
                             <p>${d.speed[1]} km/h</p>
                         </div>
                         <div class="pressureSection flex row" id="pressureSection">
-                            <p>${d.pressure} hPa</p>
+                            <p>${handlePressure(d.pressure)}</p>
                         </div>
                     </div>
                     `;
@@ -138,6 +138,33 @@ function handleLine(r) {
       <div class="lineChart" style="height: ${r*4}%"></div>
       <div class="lineLabel flex">
         <p>${r}°</p>
+        <p class="dot"></p>
+      </div>
+    </div>
+    `
+  } else {
+    return ''
+  }
+}
+
+function handlePressure(r) {
+  let pressure = new String(r);
+  let lastNumber = '';
+
+  if(pressure.length == 4) {
+    lastNumber = pressure.charAt([2]) + pressure.charAt([3]);
+  } else {
+    lastNumber = pressure.charAt([2]) - 10;
+  }
+  
+  let h = parseInt(lastNumber) + 40;
+  
+  if(r) {
+    return `
+    <div class="pressureWrapper">
+      <div class="pressureChart" style="height: ${h}%"></div>
+      <div class="pressureLabel flex">
+        <p>${r} hPa</p>
         <p class="dot"></p>
       </div>
     </div>
