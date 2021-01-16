@@ -294,4 +294,22 @@ html {
   height: 5%;
   width: 100%;
 }
+
+.rainWrapper {
+  width: 100%;
+  height: 100%;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.rainWrapper .bar {
+  width: 100%;
+  background-color: #2d92e5;
+}
+
+.rainWrapper .rainLabel {
+  -webkit-transform: rotate(-180deg);
+          transform: rotate(-180deg);
+  text-align: center;
+}
 /*# sourceMappingURL=style.css.map */

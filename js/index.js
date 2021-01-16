@@ -1,4 +1,7 @@
+
+
 const API = "./data/data.json";
+
 const scrollContainer = document.querySelector(".rightColumnWrapper");
 const leftShadow = document.querySelector(".shadowLeft");
 const rightShadow = document.querySelector(".shadowRight");
@@ -8,7 +11,7 @@ let leftScroll = false;
 rightShadow.classList.add("offRight");
 
 //this async function handle data from API and displays them 
-async function fetchData() {
+(async function fetchData() {
   await fetch(API)
     .then((res) => {
       return res.json();
@@ -30,7 +33,7 @@ async function fetchData() {
                             <p>${d.temp}°</p>
                         </div>
                         <div class="rainSection flex row" id="rainSection">
-                            <p>${d.rain}mm</p>
+                          ${handleRain(d.rain)}
                         </div>
                         <div class="windSection flex row" id="windSection">
                             <i class="fas fa-long-arrow-alt-up fa-2x" style="transform: rotate(${d.windDeg}deg)"></i>
@@ -48,9 +51,8 @@ async function fetchData() {
       });
     })
     .catch((err) => console.log(err));
-}
+})();
 
-fetchData();
 
 //this function handle left and right box shadow onScroll
 function setShadows(event) {
@@ -78,6 +80,7 @@ function setShadows(event) {
   }
 }
 
+//call for setShadow function
 scrollContainer.addEventListener("scroll", setShadows);
 
 
@@ -88,10 +91,10 @@ function handleDate(h,d) {
   const hour = "00:00";
   
   if (h == hour && formatDate(d) == formatDate(today)) {
-    return 'Today';
+    return 'Dzisiaj';
   } 
   else if (h == hour && formatDate(d) == formatDate(tomorrow)) {
-    return 'Tomorrow'
+    return 'Jutro'
   }
   else {
     return '';
@@ -109,4 +112,31 @@ function formatDate(date) {
   if (day.length < 2) day = '0' + day;
 
   return [year, month, day].join('-');
+}
+
+
+
+
+// var tag = document.createElement("p");
+// svg.appendChild(tag);
+// var element = document.getElementById("new");
+// element.appendChild(tag);
+
+function handleRain(r) {
+
+  if(r != 0) {
+    return `
+    <div class="rainWrapper">
+      <div class="bar" style="height: ${r*10}%"></div>
+      <div class="rainLabel">
+        <p>${r} mm</p>
+      </div>
+    </div>
+    `
+  } else {
+    return ''
+  }
+
+
+
 }
