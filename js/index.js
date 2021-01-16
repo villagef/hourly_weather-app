@@ -114,7 +114,7 @@ function formatDate(date) {
   return [year, month, day].join('-');
 }
 
-
+//handle chart in rainSection
 function handleBar(r) {
   if(r != 0) {
     return `
@@ -130,7 +130,7 @@ function handleBar(r) {
   }
 }
 
-
+//handle chart in tempSection
 function handleLine(r) {
   if(r) {
     return `
@@ -147,6 +147,7 @@ function handleLine(r) {
   }
 }
 
+//handle chart in pressureSection
 function handlePressure(r) {
   let pressure = new String(r);
   let lastNumber = '';
