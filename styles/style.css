@@ -8,7 +8,7 @@
 
 body,
 html {
-  font-family: "Lato", Helvetica, sans-serif;
+  font-family: "Lato", Arial, sans-serif;
   font-weight: bolder;
 }
 
@@ -57,8 +57,9 @@ html {
 }
 
 .mainContainer {
-  width: 80%;
-  height: 80%;
+  width: 95%;
+  height: 90%;
+  margin-top: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -74,11 +75,72 @@ html {
           align-items: center;
 }
 
+@media only screen and (min-width: 768px) {
+  .mainContainer {
+    width: 80%;
+    height: 80%;
+  }
+}
+
+.daySection {
+  width: 100%;
+  height: 5%;
+}
+
+.hourSection {
+  width: 100%;
+  height: 9%;
+}
+
+.forecastSection {
+  width: 100%;
+  height: 9%;
+}
+
+.tempSection {
+  width: 100%;
+  height: 25%;
+}
+
+.rainSection {
+  width: 100%;
+  height: 10%;
+}
+
+.windSection {
+  width: 100%;
+  height: 10%;
+}
+
+.speedSection {
+  width: 100%;
+  height: 12%;
+}
+
+.pressureSection {
+  width: 100%;
+  height: 20%;
+}
+
+.today {
+  height: 5%;
+  width: 100%;
+}
+
 .leftColumnSection {
-  width: 10%;
-  min-width: 110px;
-  height: 100%;
-  color: #999898;
+  display: none;
+  width: 0;
+  min-width: 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .leftColumnSection {
+    display: block;
+    width: 10%;
+    min-width: 110px;
+    height: 100%;
+    color: #999898;
+  }
 }
 
 .leftColumnWrapper {
@@ -102,31 +164,35 @@ html {
   font-size: 0.9rem;
 }
 
-.rightColumnSection::before {
-  content: "";
-  position: absolute;
-  top: 50%;
-  right: -50px;
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  background-color: rgba(0, 0, 0, 0.2);
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
-  z-index: 1;
+@media only screen and (min-width: 768px) {
+  .rightColumnSection::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: -50px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.2);
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    z-index: 1;
+  }
 }
 
-.rightColumnSection::after {
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: -50px;
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  background-color: rgba(0, 0, 0, 0.2);
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+@media only screen and (min-width: 768px) {
+  .rightColumnSection::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -50px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.2);
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
 }
 
 .leftArrow {
@@ -250,51 +316,6 @@ html {
   border-color: #ddd;
 }
 
-.daySection {
-  width: 100%;
-  height: 5%;
-}
-
-.hourSection {
-  width: 100%;
-  height: 9%;
-}
-
-.forecastSection {
-  width: 100%;
-  height: 9%;
-}
-
-.tempSection {
-  width: 100%;
-  height: 25%;
-}
-
-.rainSection {
-  width: 100%;
-  height: 10%;
-}
-
-.windSection {
-  width: 100%;
-  height: 10%;
-}
-
-.speedSection {
-  width: 100%;
-  height: 12%;
-}
-
-.pressureSection {
-  width: 100%;
-  height: 20%;
-}
-
-.today {
-  height: 5%;
-  width: 100%;
-}
-
 .rainWrapper {
   width: 100%;
   height: 100%;
@@ -367,6 +388,12 @@ html {
 .footer {
   width: 100%;
   height: 50px;
-  margin-top: 20px;
+  margin-top: 5px;
+}
+
+@media only screen and (min-width: 768px) {
+  .footer {
+    margin-top: 20px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

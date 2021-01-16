@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300&display=swap");
+
+$LeftColFontColor: rgb(153, 152, 152);
+$RightColFontColor: rgb(0, 0, 0);
+$FontSize: 0.9rem;
+$fontStack: "Lato", Arial, sans-serif;
+
+@mixin mq($size) {
+  @media only screen and (min-width: $size) {
+    @content;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  font-family: $fontStack;
+  font-weight: bolder;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.label {
+  border-bottom: 1px solid #ddd;
+
+  &:last-child {
+    border-bottom: 0;
+  }
+}
+
+.mainWrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainContainer {
+  width: 95%;
+  height: 90%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  @include mq(768px) {
+    width: 80%;
+    height: 80%;
+  }
+}
+.daySection {
+  width: 100%;
+  height: 5%;
+}
+
+.hourSection {
+  width: 100%;
+  height: 9%;
+}
+
+.forecastSection {
+  width: 100%;
+  height: 9%;
+}
+
+.tempSection {
+  width: 100%;
+  height: 25%;
+}
+
+.rainSection {
+  width: 100%;
+  height: 10%;
+}
+
+.windSection {
+  width: 100%;
+  height: 10%;
+}
+
+.speedSection {
+  width: 100%;
+  height: 12%;
+}
+
+.pressureSection {
+  width: 100%;
+  height: 20%;
+}
+
+.today {
+  height: 5%;
+  width: 100%;
+}
