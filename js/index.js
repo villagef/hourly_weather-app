@@ -30,10 +30,10 @@ rightShadow.classList.add("offRight");
                             <i class="fa-3x fas ${d.forecast}" style="color: #2d92e5;"></i>
                         </div>
                         <div class="tempSection flex row" id="tempSection">
-                            <p>${d.temp}°</p>
+                            <p>${handleLine(d.temp)}</p>
                         </div>
                         <div class="rainSection flex row" id="rainSection">
-                          ${handleRain(d.rain)}
+                          ${handleBar(d.rain)}
                         </div>
                         <div class="windSection flex row" id="windSection">
                             <i class="fas fa-long-arrow-alt-up fa-2x" style="transform: rotate(${d.windDeg}deg)"></i>
@@ -115,19 +115,11 @@ function formatDate(date) {
 }
 
 
-
-
-// var tag = document.createElement("p");
-// svg.appendChild(tag);
-// var element = document.getElementById("new");
-// element.appendChild(tag);
-
-function handleRain(r) {
-
+function handleBar(r) {
   if(r != 0) {
     return `
     <div class="rainWrapper">
-      <div class="bar" style="height: ${r*10}%"></div>
+      <div class="rainChart" style="height: ${r*10}%"></div>
       <div class="rainLabel">
         <p>${r} mm</p>
       </div>
@@ -136,7 +128,21 @@ function handleRain(r) {
   } else {
     return ''
   }
+}
 
 
-
+function handleLine(r) {
+  if(r) {
+    return `
+    <div class="lineWrapper">
+      <div class="lineChart" style="height: ${r*4}%"></div>
+      <div class="lineLabel flex">
+        <p>${r}°</p>
+        <p class="dot"></p>
+      </div>
+    </div>
+    `
+  } else {
+    return ''
+  }
 }
